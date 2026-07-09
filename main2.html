@@ -1,7 +1,7 @@
     def recv(self, frame: av.VideoFrame) -> av.VideoFrame:
         image = frame.to_ndarray(format="bgr24")
         with self.lock:
-            output = self._render(image)
+            output
 
 
 
