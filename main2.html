@@ -4,7 +4,7 @@
             output = self._render(image)
         return av.VideoFrame.from_ndarray(output, format="bgr24")    def recv(self, frame: av.VideoFrame) -> av.VideoFrame:
         image = frame.to_ndarray(format="bgr24")
-        with self
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
