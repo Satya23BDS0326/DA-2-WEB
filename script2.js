@@ -1,4 +1,4 @@
-et expenses = JSON.parse(localStorage.getItem("expenses")) || [];
+let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 const expenseList = document.getElementById("expense-list");
 const totalAmount = document.getElementById("total-amount");
 
